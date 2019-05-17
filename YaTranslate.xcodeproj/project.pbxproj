@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B7EA620228ECDB1007452E1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7EA61F228ECDB1007452E1 /* CardView.swift */; };
 		7BCEA306228E964000542FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA305228E964000542FC2 /* AppDelegate.swift */; };
 		7BCEA308228E964000542FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA307228E964000542FC2 /* ViewController.swift */; };
 		7BCEA30B228E964000542FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA309228E964000542FC2 /* Main.storyboard */; };
 		7BCEA30D228E964100542FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA30C228E964100542FC2 /* Assets.xcassets */; };
 		7BCEA310228E964100542FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA30E228E964100542FC2 /* LaunchScreen.storyboard */; };
+		7BCEA318228EB0D700542FC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA317228EB0D700542FC2 /* Constants.swift */; };
 		BEC825F7EEA8F2F60D1E6033 /* Pods_YaTranslate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFDDE8A83F33CDB9399B360 /* Pods_YaTranslate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22059CC9947BDC182F2DAF72 /* Pods-YaTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaTranslate.debug.xcconfig"; path = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7EA61F228ECDB1007452E1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7BCEA302228E964000542FC2 /* YaTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCEA305228E964000542FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BCEA307228E964000542FC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		7BCEA30C228E964100542FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BCEA30F228E964100542FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BCEA311228E964100542FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCEA317228EB0D700542FC2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FAD35E159EB0B692E80E61E7 /* Pods-YaTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaTranslate.release.xcconfig"; path = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate.release.xcconfig"; sourceTree = "<group>"; };
 		FCFDDE8A83F33CDB9399B360 /* Pods_YaTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +71,8 @@
 				7BCEA30C228E964100542FC2 /* Assets.xcassets */,
 				7BCEA30E228E964100542FC2 /* LaunchScreen.storyboard */,
 				7BCEA311228E964100542FC2 /* Info.plist */,
+				7BCEA317228EB0D700542FC2 /* Constants.swift */,
+				7B7EA61F228ECDB1007452E1 /* CardView.swift */,
 			);
 			path = YaTranslate;
 			sourceTree = "<group>";
@@ -189,12 +195,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YaTranslate/Pods-YaTranslate-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -210,6 +218,8 @@
 			files = (
 				7BCEA308228E964000542FC2 /* ViewController.swift in Sources */,
 				7BCEA306228E964000542FC2 /* AppDelegate.swift in Sources */,
+				7BCEA318228EB0D700542FC2 /* Constants.swift in Sources */,
+				7B7EA620228ECDB1007452E1 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

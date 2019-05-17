@@ -18,10 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-ZL-x8f">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-ZL-x8f" customClass="CardView" customModule="YaTranslate" customModuleProvider="target">
                                 <rect key="frame" x="16" y="72" width="343" height="120"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Translate" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dsF-6g-3dl">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dsF-6g-3dl">
                                         <rect key="frame" x="6" y="0.0" width="331" height="120"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -43,41 +43,41 @@
                                     <constraint firstAttribute="height" constant="16" id="bhO-KM-eKK"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Английский" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3D-91-mXl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Английский" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3D-91-mXl">
                                 <rect key="frame" x="16" y="37" width="147.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Русский" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zI-cI-PDQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Русский" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zI-cI-PDQ">
                                 <rect key="frame" x="211.5" y="37" width="147.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2l-9m-PTl">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2l-9m-PTl" customClass="CardView" customModule="YaTranslate" customModuleProvider="target">
                                 <rect key="frame" x="16" y="194" width="343" height="424"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Переводить" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLH-YP-A9a">
-                                        <rect key="frame" x="16" y="16" width="311" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Переводить" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLH-YP-A9a">
+                                        <rect key="frame" x="14" y="16" width="315" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="translate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qX3-2k-e8p">
-                                        <rect key="frame" x="16" y="47" width="67" height="21"/>
+                                        <rect key="frame" x="14" y="46.5" width="67" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[trænsˈleɪt]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANy-oo-U2D">
-                                        <rect key="frame" x="89" y="47" width="87" height="21"/>
+                                        <rect key="frame" x="87" y="46.5" width="87" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="гл" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRj-l1-BMS">
-                                        <rect key="frame" x="182" y="47" width="17" height="21"/>
+                                        <rect key="frame" x="180" y="46.5" width="17" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.082352941176470587" green="0.49411764705882355" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -86,13 +86,13 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="fLH-YP-A9a" firstAttribute="top" secondItem="b2l-9m-PTl" secondAttribute="top" constant="16" id="Ay2-TC-HPn"/>
-                                    <constraint firstItem="qX3-2k-e8p" firstAttribute="leading" secondItem="b2l-9m-PTl" secondAttribute="leading" constant="16" id="C1e-ys-eSU"/>
+                                    <constraint firstItem="qX3-2k-e8p" firstAttribute="leading" secondItem="b2l-9m-PTl" secondAttribute="leading" constant="14" id="C1e-ys-eSU"/>
                                     <constraint firstItem="ANy-oo-U2D" firstAttribute="top" secondItem="fLH-YP-A9a" secondAttribute="bottom" constant="10" id="NZ0-ra-yXc"/>
                                     <constraint firstItem="qX3-2k-e8p" firstAttribute="top" secondItem="fLH-YP-A9a" secondAttribute="bottom" constant="10" id="O07-Le-jrE"/>
                                     <constraint firstItem="BRj-l1-BMS" firstAttribute="top" secondItem="fLH-YP-A9a" secondAttribute="bottom" constant="10" id="a52-bS-Kan"/>
                                     <constraint firstItem="BRj-l1-BMS" firstAttribute="leading" secondItem="ANy-oo-U2D" secondAttribute="trailing" constant="6" id="bix-zC-mzF"/>
-                                    <constraint firstItem="fLH-YP-A9a" firstAttribute="leading" secondItem="b2l-9m-PTl" secondAttribute="leading" constant="16" id="cze-Ar-4Ky"/>
-                                    <constraint firstAttribute="trailing" secondItem="fLH-YP-A9a" secondAttribute="trailing" constant="16" id="iEP-S0-8Cd"/>
+                                    <constraint firstItem="fLH-YP-A9a" firstAttribute="leading" secondItem="b2l-9m-PTl" secondAttribute="leading" constant="14" id="cze-Ar-4Ky"/>
+                                    <constraint firstAttribute="trailing" secondItem="fLH-YP-A9a" secondAttribute="trailing" constant="14" id="iEP-S0-8Cd"/>
                                     <constraint firstItem="ANy-oo-U2D" firstAttribute="leading" secondItem="qX3-2k-e8p" secondAttribute="trailing" constant="6" id="zN5-xC-LwF"/>
                                 </constraints>
                             </view>
@@ -127,8 +127,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="changeLangImage" destination="lVP-Jb-ylS" id="SR1-DY-L4l"/>
+                        <outlet property="firstLangLabel" destination="D3D-91-mXl" id="m0L-jY-FJr"/>
                         <outlet property="firstView" destination="ugq-ZL-x8f" id="YTY-89-hBd"/>
+                        <outlet property="posLabel" destination="BRj-l1-BMS" id="fFd-mI-AZH"/>
+                        <outlet property="resultLabel" destination="fLH-YP-A9a" id="fsL-QO-KMf"/>
+                        <outlet property="secondLangLabel" destination="8zI-cI-PDQ" id="tuf-Xh-HW2"/>
                         <outlet property="secondView" destination="b2l-9m-PTl" id="tUf-9M-VE0"/>
+                        <outlet property="textView" destination="dsF-6g-3dl" id="MOG-MY-c6X"/>
+                        <outlet property="transcriptionLabel" destination="ANy-oo-U2D" id="jTK-Cd-GZv"/>
+                        <outlet property="wordLabel" destination="qX3-2k-e8p" id="032-N9-ch7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

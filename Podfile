@@ -7,4 +7,5 @@ target 'YaTranslate' do
 
   # Pods for YaTranslate
   pod 'Alamofire'
+  pod 'SwiftyJSON'
 end
