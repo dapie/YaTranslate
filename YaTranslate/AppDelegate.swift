@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  YaTranslate
 //
-//  Created by Denis Tkachev on 16/05/2019.
+//  Created by Denis Tkachev on 17/05/2019.
 //  Copyright © 2019 Denis Tkachev. All rights reserved.
 //
 

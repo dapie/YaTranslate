@@ -7,100 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B3D3D76228DD56C0049058B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3D3D75228DD56C0049058B /* AppDelegate.swift */; };
-		7B3D3D78228DD56C0049058B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3D3D77228DD56C0049058B /* ViewController.swift */; };
-		7B3D3D7B228DD56C0049058B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3D3D79228DD56C0049058B /* Main.storyboard */; };
-		7B3D3D7D228DD56E0049058B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3D3D7C228DD56E0049058B /* Assets.xcassets */; };
-		7B3D3D80228DD56E0049058B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3D3D7E228DD56E0049058B /* LaunchScreen.storyboard */; };
-		BFF6E445AA67380333C8A736 /* Pods_YaTranslate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3063D6103363D5B304F3D602 /* Pods_YaTranslate.framework */; };
+		7BCEA306228E964000542FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA305228E964000542FC2 /* AppDelegate.swift */; };
+		7BCEA308228E964000542FC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA307228E964000542FC2 /* ViewController.swift */; };
+		7BCEA30B228E964000542FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA309228E964000542FC2 /* Main.storyboard */; };
+		7BCEA30D228E964100542FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA30C228E964100542FC2 /* Assets.xcassets */; };
+		7BCEA310228E964100542FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA30E228E964100542FC2 /* LaunchScreen.storyboard */; };
+		BEC825F7EEA8F2F60D1E6033 /* Pods_YaTranslate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFDDE8A83F33CDB9399B360 /* Pods_YaTranslate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3063D6103363D5B304F3D602 /* Pods_YaTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B4C6D722801FAE8CC553781 /* Pods-YaTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaTranslate.debug.xcconfig"; path = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate.debug.xcconfig"; sourceTree = "<group>"; };
-		7B3D3D72228DD56C0049058B /* YaTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B3D3D75228DD56C0049058B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B3D3D77228DD56C0049058B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B3D3D7A228DD56C0049058B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7B3D3D7C228DD56E0049058B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B3D3D7F228DD56E0049058B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7B3D3D81228DD56E0049058B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A994AEADD6244449ED1776B1 /* Pods-YaTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaTranslate.release.xcconfig"; path = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate.release.xcconfig"; sourceTree = "<group>"; };
+		22059CC9947BDC182F2DAF72 /* Pods-YaTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaTranslate.debug.xcconfig"; path = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate.debug.xcconfig"; sourceTree = "<group>"; };
+		7BCEA302228E964000542FC2 /* YaTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCEA305228E964000542FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BCEA307228E964000542FC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BCEA30A228E964000542FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BCEA30C228E964100542FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BCEA30F228E964100542FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BCEA311228E964100542FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD35E159EB0B692E80E61E7 /* Pods-YaTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaTranslate.release.xcconfig"; path = "Target Support Files/Pods-YaTranslate/Pods-YaTranslate.release.xcconfig"; sourceTree = "<group>"; };
+		FCFDDE8A83F33CDB9399B360 /* Pods_YaTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7B3D3D6F228DD56C0049058B /* Frameworks */ = {
+		7BCEA2FF228E964000542FC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF6E445AA67380333C8A736 /* Pods_YaTranslate.framework in Frameworks */,
+				BEC825F7EEA8F2F60D1E6033 /* Pods_YaTranslate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		186114AEC63D3974B5DC5AAE /* Pods */ = {
+		7BCEA2F9228E964000542FC2 = {
 			isa = PBXGroup;
 			children = (
-				4B4C6D722801FAE8CC553781 /* Pods-YaTranslate.debug.xcconfig */,
-				A994AEADD6244449ED1776B1 /* Pods-YaTranslate.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		7B3D3D69228DD56C0049058B = {
-			isa = PBXGroup;
-			children = (
-				7B3D3D74228DD56C0049058B /* YaTranslate */,
-				7B3D3D73228DD56C0049058B /* Products */,
-				186114AEC63D3974B5DC5AAE /* Pods */,
-				95C77759524441AF35186845 /* Frameworks */,
+				7BCEA304228E964000542FC2 /* YaTranslate */,
+				7BCEA303228E964000542FC2 /* Products */,
+				FA40A139B0ED6778EED872D5 /* Pods */,
+				EFD320AE1150229185127D47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		7B3D3D73228DD56C0049058B /* Products */ = {
+		7BCEA303228E964000542FC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B3D3D72228DD56C0049058B /* YaTranslate.app */,
+				7BCEA302228E964000542FC2 /* YaTranslate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B3D3D74228DD56C0049058B /* YaTranslate */ = {
+		7BCEA304228E964000542FC2 /* YaTranslate */ = {
 			isa = PBXGroup;
 			children = (
-				7B3D3D75228DD56C0049058B /* AppDelegate.swift */,
-				7B3D3D77228DD56C0049058B /* ViewController.swift */,
-				7B3D3D79228DD56C0049058B /* Main.storyboard */,
-				7B3D3D7C228DD56E0049058B /* Assets.xcassets */,
-				7B3D3D7E228DD56E0049058B /* LaunchScreen.storyboard */,
-				7B3D3D81228DD56E0049058B /* Info.plist */,
+				7BCEA305228E964000542FC2 /* AppDelegate.swift */,
+				7BCEA307228E964000542FC2 /* ViewController.swift */,
+				7BCEA309228E964000542FC2 /* Main.storyboard */,
+				7BCEA30C228E964100542FC2 /* Assets.xcassets */,
+				7BCEA30E228E964100542FC2 /* LaunchScreen.storyboard */,
+				7BCEA311228E964100542FC2 /* Info.plist */,
 			);
 			path = YaTranslate;
 			sourceTree = "<group>";
 		};
-		95C77759524441AF35186845 /* Frameworks */ = {
+		EFD320AE1150229185127D47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3063D6103363D5B304F3D602 /* Pods_YaTranslate.framework */,
+				FCFDDE8A83F33CDB9399B360 /* Pods_YaTranslate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA40A139B0ED6778EED872D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22059CC9947BDC182F2DAF72 /* Pods-YaTranslate.debug.xcconfig */,
+				FAD35E159EB0B692E80E61E7 /* Pods-YaTranslate.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B3D3D71228DD56C0049058B /* YaTranslate */ = {
+		7BCEA301228E964000542FC2 /* YaTranslate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B3D3D84228DD56E0049058B /* Build configuration list for PBXNativeTarget "YaTranslate" */;
+			buildConfigurationList = 7BCEA314228E964100542FC2 /* Build configuration list for PBXNativeTarget "YaTranslate" */;
 			buildPhases = (
-				0D5BDDB5302F8AD3B3EB581F /* [CP] Check Pods Manifest.lock */,
-				7B3D3D6E228DD56C0049058B /* Sources */,
-				7B3D3D6F228DD56C0049058B /* Frameworks */,
-				7B3D3D70228DD56C0049058B /* Resources */,
-				2CDD6E6E80102004C1CE6607 /* [CP] Embed Pods Frameworks */,
+				4F137E16F567F5686088E5F6 /* [CP] Check Pods Manifest.lock */,
+				7BCEA2FE228E964000542FC2 /* Sources */,
+				7BCEA2FF228E964000542FC2 /* Frameworks */,
+				7BCEA300228E964000542FC2 /* Resources */,
+				6E998562B1A8721AFC6AF656 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -108,25 +107,25 @@
 			);
 			name = YaTranslate;
 			productName = YaTranslate;
-			productReference = 7B3D3D72228DD56C0049058B /* YaTranslate.app */;
+			productReference = 7BCEA302228E964000542FC2 /* YaTranslate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7B3D3D6A228DD56C0049058B /* Project object */ = {
+		7BCEA2FA228E964000542FC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Denis Tkachev";
 				TargetAttributes = {
-					7B3D3D71228DD56C0049058B = {
+					7BCEA301228E964000542FC2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 7B3D3D6D228DD56C0049058B /* Build configuration list for PBXProject "YaTranslate" */;
+			buildConfigurationList = 7BCEA2FD228E964000542FC2 /* Build configuration list for PBXProject "YaTranslate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,31 +133,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 7B3D3D69228DD56C0049058B;
-			productRefGroup = 7B3D3D73228DD56C0049058B /* Products */;
+			mainGroup = 7BCEA2F9228E964000542FC2;
+			productRefGroup = 7BCEA303228E964000542FC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B3D3D71228DD56C0049058B /* YaTranslate */,
+				7BCEA301228E964000542FC2 /* YaTranslate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7B3D3D70228DD56C0049058B /* Resources */ = {
+		7BCEA300228E964000542FC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3D3D80228DD56E0049058B /* LaunchScreen.storyboard in Resources */,
-				7B3D3D7D228DD56E0049058B /* Assets.xcassets in Resources */,
-				7B3D3D7B228DD56C0049058B /* Main.storyboard in Resources */,
+				7BCEA310228E964100542FC2 /* LaunchScreen.storyboard in Resources */,
+				7BCEA30D228E964100542FC2 /* Assets.xcassets in Resources */,
+				7BCEA30B228E964000542FC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D5BDDB5302F8AD3B3EB581F /* [CP] Check Pods Manifest.lock */ = {
+		4F137E16F567F5686088E5F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,7 +179,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2CDD6E6E80102004C1CE6607 /* [CP] Embed Pods Frameworks */ = {
+		6E998562B1A8721AFC6AF656 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,30 +204,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7B3D3D6E228DD56C0049058B /* Sources */ = {
+		7BCEA2FE228E964000542FC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3D3D78228DD56C0049058B /* ViewController.swift in Sources */,
-				7B3D3D76228DD56C0049058B /* AppDelegate.swift in Sources */,
+				7BCEA308228E964000542FC2 /* ViewController.swift in Sources */,
+				7BCEA306228E964000542FC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B3D3D79228DD56C0049058B /* Main.storyboard */ = {
+		7BCEA309228E964000542FC2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7B3D3D7A228DD56C0049058B /* Base */,
+				7BCEA30A228E964000542FC2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7B3D3D7E228DD56E0049058B /* LaunchScreen.storyboard */ = {
+		7BCEA30E228E964100542FC2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7B3D3D7F228DD56E0049058B /* Base */,
+				7BCEA30F228E964100542FC2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -236,7 +235,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7B3D3D82228DD56E0049058B /* Debug */ = {
+		7BCEA312228E964100542FC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		7B3D3D83228DD56E0049058B /* Release */ = {
+		7BCEA313228E964100542FC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,15 +351,14 @@
 			};
 			name = Release;
 		};
-		7B3D3D85228DD56E0049058B /* Debug */ = {
+		7BCEA315228E964100542FC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B4C6D722801FAE8CC553781 /* Pods-YaTranslate.debug.xcconfig */;
+			baseConfigurationReference = 22059CC9947BDC182F2DAF72 /* Pods-YaTranslate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3594ALG5Y;
 				INFOPLIST_FILE = YaTranslate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,19 +366,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.dapie.YaTranslate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		7B3D3D86228DD56E0049058B /* Release */ = {
+		7BCEA316228E964100542FC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A994AEADD6244449ED1776B1 /* Pods-YaTranslate.release.xcconfig */;
+			baseConfigurationReference = FAD35E159EB0B692E80E61E7 /* Pods-YaTranslate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3594ALG5Y;
 				INFOPLIST_FILE = YaTranslate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,32 +385,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.dapie.YaTranslate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B3D3D6D228DD56C0049058B /* Build configuration list for PBXProject "YaTranslate" */ = {
+		7BCEA2FD228E964000542FC2 /* Build configuration list for PBXProject "YaTranslate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B3D3D82228DD56E0049058B /* Debug */,
-				7B3D3D83228DD56E0049058B /* Release */,
+				7BCEA312228E964100542FC2 /* Debug */,
+				7BCEA313228E964100542FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B3D3D84228DD56E0049058B /* Build configuration list for PBXNativeTarget "YaTranslate" */ = {
+		7BCEA314228E964100542FC2 /* Build configuration list for PBXNativeTarget "YaTranslate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B3D3D85228DD56E0049058B /* Debug */,
-				7B3D3D86228DD56E0049058B /* Release */,
+				7BCEA315228E964100542FC2 /* Debug */,
+				7BCEA316228E964100542FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7B3D3D6A228DD56C0049058B /* Project object */;
+	rootObject = 7BCEA2FA228E964000542FC2 /* Project object */;
 }
