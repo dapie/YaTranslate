@@ -51,14 +51,15 @@ class ViewController: UIViewController, UITextViewDelegate{
     
     func makeRequest(words: String){
         let lang = "\(langs[self.firstLangLabel.text!]!)-\(langs[self.secondLangLabel.text!]!)"
+        for subview in self.thirdView.subviews {
+            subview.removeFromSuperview()
+        }
+        self.refreshTextFields()
         if words.components(separatedBy: " ").filter({ !$0.isEmpty}).count == 1 {
             Alamofire
                 .request("https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=\(Keys.dict)&lang=\(lang)&text=\(words)&ui=ru".addingPercentEncoding( withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!)
                 .responseJSON { response in
                     if let result = response.result.value {
-                        for subview in self.thirdView.subviews {
-                            subview.removeFromSuperview()
-                        }
                         let json = JSON(result);
                         self.refreshTextFields()
                         self.resultLabel.text = json["def"][0]["tr"][0]["text"].stringValue.capitalizingFirstLetter()
@@ -67,7 +68,6 @@ class ViewController: UIViewController, UITextViewDelegate{
                         }
                         self.wordLabel.text = json["def"][0]["text"].stringValue
                         self.posLabel.text = json["def"][0]["pos"].stringValue
-                        print(json["def"][0]["tr"][0]["mean"])
                         var dataArr = json["def"][0]["tr"][0]["mean"]
                         var yPos = -30
                         let xPos = 14
