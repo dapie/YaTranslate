@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
+
 class ViewController: UIViewController, UITextViewDelegate{
     var transTimer: Timer?
     
@@ -21,6 +22,7 @@ class ViewController: UIViewController, UITextViewDelegate{
     @IBOutlet var firstView: CardView!
     @IBOutlet var secondView: CardView!
     @IBOutlet var textView: UITextView!
+    @IBOutlet var thirdView: UIView!
     @IBOutlet var resultLabel: UILabel!
     @IBOutlet var transcriptionLabel: UILabel!
     @IBOutlet var wordLabel: UILabel!
@@ -28,7 +30,6 @@ class ViewController: UIViewController, UITextViewDelegate{
     @IBOutlet var changeLangImage: UIImageView!
     @IBOutlet var firstLangLabel: UILabel!
     @IBOutlet var secondLangLabel: UILabel!
-    let dataArr = ["2,5","5,1"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -38,6 +39,7 @@ class ViewController: UIViewController, UITextViewDelegate{
         changeLangImage.addGestureRecognizer(tapGestureRecognizer)
         textView.text = "Введите слово или текст"
         textView.textColor = UIColor.lightGray
+        self.hideKeyboardWhenTappedAround()
     }
     
     func textViewDidBeginEditing(_ textView: UITextView) {
@@ -53,13 +55,30 @@ class ViewController: UIViewController, UITextViewDelegate{
             Alamofire
                 .request("https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=\(Keys.dict)&lang=\(lang)&text=\(words)&ui=ru".addingPercentEncoding( withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!)
                 .responseJSON { response in
-                    print(response)
                     if let result = response.result.value {
+                        for subview in self.thirdView.subviews {
+                            subview.removeFromSuperview()
+                        }
                         let json = JSON(result);
+                        self.refreshTextFields()
                         self.resultLabel.text = json["def"][0]["tr"][0]["text"].stringValue.capitalizingFirstLetter()
-                        self.transcriptionLabel.text = "[\(json["def"][0]["ts"])]"
+                        if(json["def"][0]["ts"].stringValue != ""){
+                            self.transcriptionLabel.text = "[\(json["def"][0]["ts"])]"
+                        }
                         self.wordLabel.text = json["def"][0]["text"].stringValue
                         self.posLabel.text = json["def"][0]["pos"].stringValue
+                        print(json["def"][0]["tr"][0]["mean"])
+                        var dataArr = json["def"][0]["tr"][0]["mean"]
+                        var yPos = -30
+                        let xPos = 14
+                        for i in 0..<dataArr.count {
+                            let element = dataArr[i]
+                            let labelNum = UILabel()
+                            labelNum.text = element["text"].stringValue
+                            labelNum.frame = CGRect( x: xPos, y: yPos, width: 250, height: 80)
+                            yPos += 20
+                            self.thirdView.addSubview(labelNum)
+                        }
                     }
             }
         } else {
@@ -68,10 +87,8 @@ class ViewController: UIViewController, UITextViewDelegate{
                 .responseJSON { response in
                     if let result = response.result.value {
                         let json = JSON(result);
+                        self.refreshTextFields()
                         self.resultLabel.text = json["text"][0].stringValue.capitalizingFirstLetter()
-                        self.transcriptionLabel.text = ""
-                        self.wordLabel.text = ""
-                        self.posLabel.text = ""
                     }
             }
         }
@@ -79,7 +96,9 @@ class ViewController: UIViewController, UITextViewDelegate{
     
     @objc func imageTapped(){
         swap(&self.firstLangLabel.text, &self.secondLangLabel.text)
-        self.textView.text = self.resultLabel.text
+        if(self.resultLabel.text != "") {
+            self.textView.text = self.resultLabel.text
+        }
         refreshTimer()
     }
     
@@ -95,10 +114,12 @@ class ViewController: UIViewController, UITextViewDelegate{
     @objc func runTimedCode(){
         makeRequest(words: textView.text)
     }
-}
-
-extension String {
-    func capitalizingFirstLetter() -> String {
-        return prefix(1).capitalized + dropFirst()
+    
+    func refreshTextFields(){
+        self.resultLabel.text = ""
+        self.transcriptionLabel.text = ""
+        self.wordLabel.text = ""
+        self.posLabel.text = ""
     }
+    
 }
